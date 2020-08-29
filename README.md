@@ -8,7 +8,7 @@ The dataset consists of a column or feature named ***‘satisfaction’*** which
 ## Data Cleaning and Visualisation
 Data cleaning plays a key role in deriving the output of a machine learning model. Usually data cleaning consists of processes like determining outliers and removing or imputing outliers, removing or replacing missing values, removing duplicate values, removing values with less or no importance. <br/>
 In this project, the *‘Arrival Delay in Minutes’* column has 310 missing values in it. These missing values are imputed with the mean values of the non-missing values of the same column. <br/>
-Data Visualisation plays an important role in understanding the data as it gives an overview of the data before the model implementation. Exploratory Data Analysis is done for the dataset using Python.
+Data Visualisation plays an important role in understanding the data as it gives an overview of the data before the model implementation. Exploratory Data Analysis is done for the dataset.
 ## Feature Selection
 Correlation among the features are found by generating a correlation map. The top ten features are selected using Chi-Square method. The importance of features are determined using Wrapper method and feature permutation importance technique.
 ## Models
