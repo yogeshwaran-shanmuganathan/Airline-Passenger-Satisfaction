@@ -22,4 +22,4 @@ Eight models are used in this project to check for maximum efficiency. They are,
 - XGBoost
 - AdaBoost
 ## Conclusion
-Random Forest and AdaBoost have performed equally well on producing high ROC_AUC score (90%). But ***Random Forest*** has took lesser amount of time compared to time taken by AdaBoost. Therefore, we can conclude that Random Forest as the best model.
+Random Forest and AdaBoost have performed equally and produced high ROC_AUC score (~90%). But ***Random Forest*** took lesser amount of time compared to time taken by AdaBoost. Therefore, we can conclude that Random Forest as the best model.
