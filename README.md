@@ -1,7 +1,9 @@
 # Airline-Passenger-Satisfaction
 ## Objective
 The objective or goal of this project is to guide an airlines company to determine the important factors that influences the customer or passenger satisfaction. <br/>
-Customer satisfaction plays a major role in affecting the business of a company therefore analysing and improving the factors that are closely related to customer satisfaction is important for the growth and reputation of a company.
+Customer satisfaction plays a major role in affecting the business of a company therefore analysing and improving the factors that are closely related to customer satisfaction is important for the growth and reputation of a company. <br/>
+
+*In this project, the ***CRISP-DM methodology*** *is implemented to derive an appropriate solution for a business problem. It is carried out in six phases, Business understanding, Data understanding, Data preparation, Data Modelling, Evaluation and Deployment.*
 ## About Data
 The dataset for this project is attained from Kaggle which contains the data sourced from a survey conducted by airlines on the satisfaction level of passengers/customers based on various factors. The dataset consists of 25 columns such as Age, Gender, Travel class, Arrival and Departure delays and also features that influences customer satisfaction level such as On-board service, Cleanliness, Seat comfort, Baggage handling etc. <br/>
 The dataset consists of a column or feature named ***‘satisfaction’*** which describes the overall satisfaction level of the customer. It has two values, ‘neutral or dissatisfied’ and ‘satisfied’. This ***satisfaction*** feature is considered as the label feature since it conveys the overall experience of the customer based on the ratings given for other features. The dataset consists of 103904 and 25976 records in train and test respectively.
@@ -22,4 +24,7 @@ Eight models are used in this project to check for maximum efficiency. They are,
 - XGBoost
 - AdaBoost
 ## Conclusion
-Random Forest and AdaBoost have performed equally and produced high ROC_AUC score (~90%). But ***Random Forest*** took lesser amount of time compared to time taken by AdaBoost. Therefore, we can conclude that Random Forest as the best model.
+Random Forest and AdaBoost have performed equally and produced high ROC_AUC score (~90%). But ***Random Forest*** took lesser amount of time compared to time taken by AdaBoost. Therefore, we can conclude that Random Forest as the best model. <br/>
+
+
+###### ***Note: This was a part of my academic assignment for Data Mining module.***
